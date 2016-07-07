@@ -2,9 +2,9 @@
 #include <string.h>
 int main(){
   int sno;
-  unsigned char cust_name[30];
+  char cust_name[30];
   long int mobno;
-	short int age;
+	unsigned short int age;
   char tab[30];
   signed int qty;
 	float rate;
@@ -16,7 +16,7 @@ scanf("%s",cust_name);
 printf("Enter the mobile number\n");
 scanf("%ld",&mobno);
 printf("Enter the age of the customer\n");
-scanf("%hd",&age);
+scanf("%hu",&age);
 printf("Enter the tablet name\n");
 scanf("%s",tab);
 printf("Enter the quantity\n");
