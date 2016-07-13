@@ -35,7 +35,7 @@ int main()
 							printf("\nThe total amount is %d\n",amt);
 							break;
 						}
-							if(h==2){
+							else if(h==2){
 
 								printf("\nEnter the Quantity\n");
 								scanf("%d",&qty);
@@ -47,7 +47,7 @@ int main()
 						}
 
 
-					        if(h==3){
+					      else if(h==3){
 
 										printf("\nEnter the Quantity\n");
 										scanf("%d",&qty);
@@ -57,7 +57,7 @@ int main()
 										printf("\nThe total amount is %d\n",amt);
 							break;
 						}
-							if(h==4){
+							else if(h==4){
 
 								printf("\nEnter the Quantity\n");
 								scanf("%d",&qty);
@@ -76,7 +76,7 @@ int main()
 
 					printf("\nenter your choice in fever tab\n");
 					scanf("%d",&d);
-							if(d==1){
+							 if(d==1){
 
 								printf("\nEnter the Quantity\n");
 								scanf("%d",&qty);
@@ -86,7 +86,7 @@ int main()
 								printf("\nThe total amount is %d\n",amt);
 							break;
 						}
-								if(d==2)
+								else if(d==2)
 								{
 
 									printf("\nEnter the Quantity\n");
@@ -116,7 +116,7 @@ int main()
 								printf("\nThe total amount is %d\n",amt);
 							break;
 						}
-								if(i==2){
+							else 	if(i==2){
 
 									printf("\nEnter the Quantity\n");
 									scanf("%d",&qty);
@@ -126,7 +126,7 @@ int main()
 									printf("\nThe total amount is %d\n",amt);
 							break;
 						}
-						 if(i==3)
+						 else if(i==3)
 						{
 
 							printf("\nEnter the Quantity\n");
