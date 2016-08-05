@@ -16,7 +16,7 @@ int main()
 
 					{
 						    case 1:
-						    printf("\nHeadache are chosen\n");
+					printf("\nHeadache are chosen\n");
 					printf("\n1.saridon\n");
 					printf("\n2.headset\n");
 					printf("\n3.vasograine\n");

@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include<conio.h>
-#include <gaurav.h>
+#include <stdio.h>
+
+#include <GAURAV.H>
 #include<stdlib.h>
 int main()
  {

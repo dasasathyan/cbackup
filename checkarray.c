@@ -1,31 +1,13 @@
-#include <stdio.h>
-#include <math.h>
-int main(){
-char arrayOfWords[5][10];
-int i,n,j=0,qty[10],rate[10],amt[10],total=0;
-printf("\n\n\t\t\tENTER THE STOCK DETAILS\t\t\t\n\n");
+void count_to_ten ( int count )
+{
 
-printf("\nenter the number of tablets\n");
-scanf("%d",&n);
-if ((isdigit(n)==0)){
-for (i=0; i<n; i++) {
-    j=i+1;
-    printf("\nEnter the name of the %d. tablet\n",j);
-    scanf ("%s" , arrayOfWords[i]);
-    printf("\nenter the amount of new addition to the stock\n");
-    scanf("%d",&qty[i]);
-    printf("\nenter the rate of the tab\n");
-    scanf("%d",&rate[i] );
-    amt[i]=rate[i]*qty[i];
+       if ( count < 10 )
+       {
+           count_to_ten( count + 1 );
+					 printf("%d\n",count );
+       }
 }
-for (i=0; i<n; i++) {
-printf("--------------------------------------");
-printf ("\nThe available stock of %s is %d worth Rs.%d\n\n" , arrayOfWords[i],qty[i],amt[i]);
-total=total+amt[i];
-printf("\nThe total worth of stock is %d\n", total);
-}
-}
-else{
-  printf("\nEnter a valid number\n" );
-}
+int main()
+{
+  count_to_ten ( 0 );
 }
