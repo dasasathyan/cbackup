@@ -13,7 +13,7 @@ int main()
      dup[i]=name[i];
      i++;
    }
-   printf("The name of the customer is %s\n",dup );//strcpy ends here
+   printf("The name of the customer is %s and it is duplicated here\n",dup );//strcpy ends here
    printf("The name of the tablet.Dont worry if its in upper letter we will convert it to lower\n");
    scanf("%s",tab);
    lower_string(tab);
