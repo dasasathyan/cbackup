@@ -1,0 +1,11 @@
+
+
+Name:	dasa	 No.of Quantities	23	 Rate:	5	 Total Value	115 	 Edited on:	Sep 19 2016	
+
+Name:	csdfe	 No.of Quantities	45	 Rate:	2	 Total Value	90 	 Edited on:	Sep 19 2016	
+
+Name:	sardon	 No.of Quantities	2	 Rate:	4	 Total Value	8 	 Edited on:	Sep 19 2016	
+
+Name:	restyl	 No.of Quantities	32	 Rate:	45	 Total Value	1440 	 Edited on:	Sep 19 2016	
+
+Name:	dolo	 No.of Quantities	32	 Rate:	1	 Total Value	32 	 Edited on:	Sep 20 2016	

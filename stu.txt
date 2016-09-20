@@ -1,0 +1,48 @@
+
+
+Name:	dasa
+ Registeration no	95 
+Marks1	94
+ Marks2	93 
+Marks3	92
+
+
+	 Total : 	 279
+
+	Average:	 93
+
+
+Name:	sadw
+ Registeration no	1984 
+Marks1	92
+ Marks2	91 
+Marks3	90
+
+
+	 Total : 	 273
+
+	Average:	 91
+
+
+Name:	sda
+ Registeration no	4684 
+Marks1	23
+ Marks2	43 
+Marks3	65
+
+
+	 Total : 	 131
+
+	Average:	 43
+
+
+Name:	cet
+ Registeration no	84987 
+Marks1	55
+ Marks2	55 
+Marks3	55
+
+
+	 Total : 	 165
+
+	Average:	 55
