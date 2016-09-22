@@ -5,11 +5,11 @@ union tab{
 //int qty,rate;
 char amt[3],qty[2],rate[3];
 char name[20];
-};
+}tablet;
 int main(){
 int validamt,validqty,validrate,validname;
 int qaty,raate,aamt;
-union tab tablet;
+//union tab tablet;
 printf("Enter the name of the tablet\n" );
 scanf("%s",tablet.name );
 validname=alpha(tablet.name);

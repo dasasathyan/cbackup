@@ -17,12 +17,17 @@ int main(){
   struct tab  tablet;
   struct tab* ptr;
   ptr= &tablet;
+  /*ptr->name="Dasa Sathyan";
+  ptr->pupose="student";*/
   union taboo* ptr1;
   ptr1=&tabu;
 printf("The size of structure is %ld\n",sizeof(tablet));
-printf("The size of Union is %ld\n",sizeof(tabu));
 printf("The address of structure is %p\n",&tablet);
 printf("The value of ptr is %p\n",ptr );
+printf("Name is %s\n",tablet.name );
+printf("Purpose is %s\n\n",tablet.purpose );
+
+printf("The size of Union is %ld\n",sizeof(tabu));
 printf("The value of ptr1 is %p\n",ptr1 );
 printf("The address of Union is %p\n",&tabu);
 }

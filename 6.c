@@ -99,7 +99,7 @@ int recursion(int counter){
 int main() {
   int ch,amt,qty,rate,validnum,validname,counter;
   char name[30],tab[30],no[30],purchase[20];
-  printf("1.Edit the Bill\n2.View the bill\n3.Know what  he has purchased\n4.Look at the available counters\n" );
+  a:printf("1.Edit the Bill\n2.View the bill\n3.Know what  he has purchased\n4.Look at the available counters\n5.exit\n" );
   printf("Enter the choice\n");
   scanf("%d",&ch );
   switch (ch) {
@@ -132,6 +132,7 @@ int main() {
     printf("The updated bill amount for %s is %d\n",tab,amt );
   }
    }
+    goto a;
     break;
     case 2:
     printf("Enter the bill No.\n");
@@ -148,15 +149,21 @@ int main() {
     printf("The total amount is %d\n", amt);
     call_by_val(qty);
     printf("But collect only %d\n",amt );
+    goto a;
     break;
     case 3:
   printf("What has he purchased\n");
   scanf("%s",purchase);
    pass(purchase);
+   goto a;
    break;
    case 4:
    printf("Enter the available counters\n" );
    scanf("%d",&counter );
    recursion(counter);
+   goto a;
+   break;
+   case 5:
+   break;
 }
 }

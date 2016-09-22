@@ -1,3 +1,4 @@
+#include<stdio.h>
 extern int trueGlobal;
 extern int nonTrueGlobal;
 
